@@ -1,0 +1,114 @@
+img {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+  background-image: url(blurry-gradient-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  background-color: white;
+  padding-top: 10px;
+}
+.logo {
+  max-height: 150px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 150px;
+  text-align: center;
+  padding-bottom: 45px;
+  border-bottom: 1px black solid;
+}
+.navbar > ul {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  margin-top: 0;
+  padding-bottom: 0px;
+}
+.navbar > ul > li {
+  display: inline-block;
+  font-size: 35px;
+  padding-right: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.navbar > ul > li:hover {
+  background-color: rgb(72, 85, 97);
+}
+.navbar {
+  background-color: lightslategray;
+  margin-top: 0px;
+  max-width: 600px;
+  text-align: center;
+  margin-left: calc(50% - 300px);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.navbar > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+.artykul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.left > p{
+
+background-color: rgba(255, 255, 255, 0.5);
+}
+.left{
+  margin-left: 15px;
+  background-image: url(pantheon.JPG);
+  background-repeat: no-repeat;
+  background-size: contain;
+    width: 750px;
+    height: 500px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left > img{
+  width: 750px;
+  height: auto;
+  border-radius: 50px;
+}
+.artykul > iframe {
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.artykul > p {
+  max-width: 1000px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 25px;
+  font-size: 20px;
+}
+.mapka {
+  display: flex;
+  justify-content: center;
+}
+.mapka > iframe {
+  padding-bottom: 10px;
+}
+
+
+/*-----------------------------------------------*/
+.card {
+  width: 600px;
+  height: 450px;
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 0;
+  box-shadow: 15px 15px 0 -2.5px #fff, 15px 15px 0 0 #000;
+}
